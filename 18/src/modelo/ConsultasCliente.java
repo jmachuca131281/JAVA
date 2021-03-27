@@ -121,9 +121,5 @@ public class ConsultasCliente extends Conexion
                 System.err.println(e);
             }
         }
-    }
-    
-   
-    
-    
+    }    
 }

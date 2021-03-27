@@ -12,7 +12,6 @@ import vista.Desktop.DClientes;
 
 public class CtrlClientes implements ActionListener, InternalFrameListener 
 {
-    
     private Clientes mod;
     private ConsultasCliente modC;
     private DClientes frm;
@@ -36,7 +35,6 @@ public class CtrlClientes implements ActionListener, InternalFrameListener
     @Override
     public void actionPerformed(ActionEvent e)
     {
-        
         if (e.getSource() == frm.btnGuardar)
         {
             mod.setTipoId((String) frm.cb_TipoIdentificacion.getSelectedItem());

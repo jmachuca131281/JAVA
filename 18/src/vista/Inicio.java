@@ -6,7 +6,6 @@ public class Inicio extends javax.swing.JFrame {
     public static login frmLog;
 
     public Inicio() {
-        
         initComponents();
         setLocationRelativeTo(null);
     }

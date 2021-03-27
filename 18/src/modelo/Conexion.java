@@ -10,14 +10,13 @@ import java.util.logging.Logger;
 public class Conexion {
     
     private final String base = "usuarios";
-    private final String user = "root";
-    private final String password = "";
+    private final String user = "Jmachuca";
+    private final String password = "I@mr00t";
     private final String url = "jdbc:mysql://localhost:3306/" + base;
     private Connection con = null;
     
     public Connection getConexion()
     {
-        
         try{
             Class.forName("com.mysql.jdbc.Driver");
             con = (Connection) DriverManager.getConnection(this.url, this.user, this.password);
